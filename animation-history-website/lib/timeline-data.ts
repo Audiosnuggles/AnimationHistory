@@ -5,6 +5,7 @@ export interface TimelineEvent {
   inventor: string
   description: string
   detail: string
+  imageUrl: string
   icon:
     | "disc"
     | "eye"
