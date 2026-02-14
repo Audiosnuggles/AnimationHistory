@@ -37,7 +37,7 @@ const eventImages = {
     gallery: [
       "https://commons.wikimedia.org/wiki/Special:FilePath/Stampfer_disc.jpg",
       "https://commons.wikimedia.org/wiki/Special:FilePath/Simon_Stampfer_portrait.gif",
-      "https://upload.wikimedia.org/wikipedia/commons/6/6e/Prof._Stampfer%27s_Stroboscopische_Scheibe_No._X.gif"
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/Prof._Stampfer%27s_Stroboscopische_Scheibe_No._X.gif"
     ],
     icon: "disc"
   },
@@ -53,10 +53,11 @@ const eventImages = {
   },
   "zoetrop": {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e7/ZOOTROP.jpg",
-    // FIX: Kein Portrait für Horner (Bild existiert nicht), daher entfernt um Fehler zu vermeiden.
     gallery: [
       "https://upload.wikimedia.org/wikipedia/commons/e/e7/ZOOTROP.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/a/a9/Zoetrope_strip.jpg"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Muybridge_zoetrope.gif",
+      // FIX: Neuer Link für Bild 3 wie angefordert
+      "https://upload.wikimedia.org/wikipedia/commons/4/47/Zoetrope_%28AM_2001.6.1-23%29.jpg"
     ],
     icon: "orbit"
   },
@@ -75,7 +76,7 @@ const eventImages = {
     gallery: [
       "https://commons.wikimedia.org/wiki/Special:FilePath/Linnet_kineograph_1886.jpg",
       "https://upload.wikimedia.org/wikipedia/commons/d/dc/Upload_Wizard_-_Wikimedia_Commons_-_Google_Chrome_4_24_2021_6_37_02_PM.png",
-      "https://upload.wikimedia.org/wikipedia/commons/5/5e/Flip_Book_Movie_v2.gif"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Flip_Book_Movie_v2.gif"
     ],
     icon: "book"
   },
@@ -85,17 +86,18 @@ const eventImages = {
     gallery: [
       "https://commons.wikimedia.org/wiki/Special:FilePath/Lanature1879_praxinoscope_reynaud.png",
       "https://upload.wikimedia.org/wikipedia/commons/e/e1/Reynaud.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/9/99/Anim_Sauteuse_corde_Toupie_Fantoche.gif"
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Anim_Sauteuse_corde_Toupie_Fantoche.gif"
     ],
     icon: "prism"
   },
   "muybridge": {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif",
-    // FIX: Neuer, funktionierender Link für Muybridge Portrait (Nadar)
-    personUrl: "https://upload.wikimedia.org/wikipedia/commons/7/70/Descriptive_Zoopraxography_004.jpg",
+    // FIX: Neuer Link für Muybridge Portrait wie angefordert
+    personUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Eadweard_Muybridge_portrait_LOC_13624593813.jpg",
     gallery: [
       "https://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif",
-      "https://upload.wikimedia.org/wikipedia/commons/9/96/Eadweard_Muybridge.jpg",
+      // FIX: Neuer Link für Muybridge Portrait in Gallery
+      "https://upload.wikimedia.org/wikipedia/commons/8/8e/Eadweard_Muybridge_portrait_LOC_13624593813.jpg",
       "https://commons.wikimedia.org/wiki/Special:FilePath/The_Horse_in_Motion.jpg",
       "https://commons.wikimedia.org/wiki/Special:FilePath/Muybridge_horse_jumping.jpg"
     ],
